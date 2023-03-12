@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css">
+    <script src="/script/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="navbar">
+
+    </div>
+    <div class="row">
+        <div class="col-lg-9">
+            <h2>Welcome to Web server </h2>
+            <h4>Simple Application to check the web server</h4>
+            <p>
+                Example application to showcase Web server and its ability to store sessions,
+                work with resources, HTTP Methods and external libraries that your
+                application can use like MySql in this example.
+            </p>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </div>
+</div>
+<script src="/script/bootstrap.min.js"></script>
+<script src="/script/security.js"></script>
+<script>
+    $(function () {
+        $('#navbar').load("/partials/navbar.html");
+    });
+</script>
+</body>
+</html>

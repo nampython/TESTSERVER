@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Set Up Db</title>
+
+    <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css">
+    <script src="/script/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="navbar">
+
+    </div>
+    <div class="row">
+        <div class="col-lg-9">
+            <h2>Db Settings</h2>
+            <p>Provide credentials to your local mysql server to see the MySql functionality.</p>
+            <p>It is not validated! So please provide valid data</p>
+            <small>Also you need to be "logged in" to be able to use the database.</small>
+            <form action="/database/configure" method="post">
+                <div class="form-group">
+                    <label for="server">Server (port is 3306)</label>
+                    <input type="text" id="server" required name="server" class="form-control" value="localhost">
+                </div>
+
+                <div class="form-group">
+                    <label for="port">Port</label>
+                    <input type="text" id="port" required name="port" class="form-control" value="3306">
+                </div>
+
+                <div class="form-group">
+                    <label for="user">User</label>
+                    <input type="text" id="user" required name="user" class="form-control" value="root">
+                </div>
+
+                <div class="form-group">
+                    <label for="pas">Password</label>
+                    <input type="text" id="pas" required name="password" class="form-control" value="toor">
+                </div>
+
+                <div class="form-group">
+                    <label for="db">Database (Create Database If Not Exists = true)</label>
+                    <input type="text" id="db" required name="database" class="form-control" value="bdz">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-outline-success">Save Db Connection Settings</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </div>
+</div>
+<script src="/script/bootstrap.min.js"></script>
+<script src="/script/security.js"></script>
+<script>
+    $(function () {
+        $('#navbar').load("/partials/navbar.html");
+    });
+</script>
+</body>
+</html>

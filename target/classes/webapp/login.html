@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css">
+    <script src="/script/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="navbar">
+    </div>
+    <div class="row">
+        <div class="col-lg-9">
+            <h2>Login</h2>
+            <p>Enter a username and a random password and login</p>
+            <small>It will not be stored anywhere, this is just to showcase the HttpSessionStorage</small>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required name="username" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required name="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-outline-success">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </div>
+</div>
+<script src="/script/bootstrap.min.js"></script>
+<script src="/script/security.js"></script>
+<script>
+    $(function () {
+        $('#navbar').load("/partials/navbar.html");
+    });
+</script>
+</body>
+</html>

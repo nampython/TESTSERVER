@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css">
+    <script src="/script/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="navbar">
+    </div>
+    <div class="row">
+        <div class="col-lg-9">
+            <h2>My Profile</h2>
+            <p>Hello, <strong id="username"></strong>! Your password is really secured with us!</p>
+            <p>Your password, <strong id="password"></strong>. Really secure!</p>
+            <div class="col-lg-3">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/script/bootstrap.min.js"></script>
+<script src="/script/security.js"></script>
+<script>
+    $(async function () {
+        $('#navbar').load("/partials/navbar.html");
+        let isSecured = await new SecurityChecker().isSecured();
+        if(!isSecured) {
+            location.href = "/login";
+        }
+        let userDetails = await $.ajax({
+            type: 'GET',
+            url: '/logged-user/details'
+        });
+        $('#username').text(userDetails.username);
+        $('#password').text(userDetails.password);
+    });
+</script>
+</html>

@@ -1,0 +1,812 @@
+[2023-02-24T13:25:55.177Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T13:25:55.258Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:46)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T13:26:46.429Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T13:26:46.464Z][ERROR] java.lang.IllegalArgumentException: Missing solet annotation for class named controller.Controller.
+	at org.nampython.dispatcher.ApplicationLoadingServiceImpl.loadSolet(ApplicationLoadingServiceImpl.java:82)
+	at org.nampython.dispatcher.ApplicationLoadingServiceImpl.loadApplications(ApplicationLoadingServiceImpl.java:58)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:41)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:17:52.941Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:17:52.974Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:46)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:20:18.193Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:20:25.375Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:46)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:20:41.960Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:20:51.326Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:46)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:21:21.390Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:22:21.775Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:46)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:22:25.335Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:22:25.365Z][INFO] http://localhost:8000
+[2023-02-24T14:27:32.296Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:27:32.316Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:27:32.332Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:44)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:27:46.081Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:27:46.101Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:27:46.114Z][ERROR] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.lang.String.join(String.java:2440)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:44)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:30:14.662Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:30:14.678Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:30:14.694Z][INFO] Loaded Applications: 
+[2023-02-24T14:30:14.696Z][INFO] http://localhost:8000
+[2023-02-24T14:34:45.511Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:34:45.555Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:34:54.405Z][INFO] Loaded Applications: 
+[2023-02-24T14:34:54.414Z][INFO] http://localhost:8000
+[2023-02-24T14:35:01.865Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:36:47.796Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:38:29.941Z][INFO] Loaded Applications: 
+[2023-02-24T14:38:29.949Z][INFO] http://localhost:8000
+[2023-02-24T14:39:01.688Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:39:01.704Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:39:01.715Z][ERROR] java.lang.IllegalArgumentException: Missing solet annotation for class named controller.Controller.
+	at org.nampython.dispatcher.ApplicationLoadingServiceImpl.loadSolet(ApplicationLoadingServiceImpl.java:84)
+	at org.nampython.dispatcher.ApplicationLoadingServiceImpl.loadApplications(ApplicationLoadingServiceImpl.java:60)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:41)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:48:28.782Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:48:32.736Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:48:33.778Z][ERROR] java.lang.IllegalArgumentException: Missing solet annotation for class named controller.Controller.
+	at org.nampython.dispatcher.ApplicationLoadingServiceImpl.loadSolet(ApplicationLoadingServiceImpl.java:84)
+	at org.nampython.dispatcher.ApplicationLoadingServiceImpl.loadApplications(ApplicationLoadingServiceImpl.java:60)
+	at org.nampython.dispatcher.SoletDispatcher.init(SoletDispatcher.java:41)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.nampython.config.EmbeddedRequestHandlerLoadingService.loadRequestHandlers(EmbeddedRequestHandlerLoadingService.java:34)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:51)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:30)
+	at org.nampython.ServerInitialization.startServer(ServerInitialization.java:25)
+	at org.example.App.main(App.java:10)
+
+[2023-02-24T14:48:44.465Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:48:44.482Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:48:44.500Z][INFO] Loaded Applications: 
+[2023-02-24T14:48:44.503Z][INFO] http://localhost:8000
+[2023-02-24T14:48:52.555Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T14:48:54.296Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T14:50:26.350Z][INFO] Loaded Applications: 
+[2023-02-24T14:50:26.359Z][INFO] http://localhost:8000
+[2023-02-24T15:06:06.667Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T15:06:06.705Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T15:06:06.724Z][INFO] Loaded Applications: 
+[2023-02-24T15:06:06.731Z][INFO] http://localhost:8000
+[2023-02-24T15:06:19.123Z][INFO] Initializing Solet Dispatcher
+[2023-02-24T15:06:20.560Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-24T15:12:52.074Z][INFO] Loaded Applications: 
+[2023-02-25T01:02:37.233Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T01:02:37.253Z][INFO] ----------------------Getting all class extends BaseHttpSolet and with @WebSolet annotation
+[2023-02-25T01:02:37.267Z][INFO] Loaded Applications: 
+[2023-02-25T01:02:37.269Z][INFO] http://localhost:8000
+[2023-02-25T02:32:17.007Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:32:17.028Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:33:23.057Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:33:23.116Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:35:16.493Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:35:22.866Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:35:33.149Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:35:34.150Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:35:52.247Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:35:53.115Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:36:38.970Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:36:40.073Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:37:12.368Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:37:12.392Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:38:24.195Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T02:38:24.214Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T02:38:24.240Z][INFO] Loaded Applications: 
+[2023-02-25T02:38:24.243Z][INFO] http://localhost:8000
+[2023-02-25T03:09:06.200Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T03:09:06.227Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T03:09:06.246Z][INFO] Loaded Applications: 
+[2023-02-25T03:09:06.249Z][INFO] http://localhost:8000
+[2023-02-25T03:09:19.096Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T03:09:19.113Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T03:09:19.128Z][INFO] Loaded Applications: 
+[2023-02-25T03:09:19.136Z][INFO] http://localhost:8000
+[2023-02-25T03:09:26.805Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:26.805Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:27.034Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:28.068Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:28.069Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:28.320Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:32.891Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:32.892Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:33.153Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:38.183Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:38.186Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:38.431Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:43.791Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:43.792Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:44.040Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:55.121Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:55.123Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T03:09:55.375Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:36:49.222Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T07:36:49.245Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T07:36:49.259Z][INFO] Loaded Applications: 
+[2023-02-25T07:36:49.261Z][INFO] http://localhost:8000
+[2023-02-25T07:37:07.281Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T07:37:07.330Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T07:37:07.347Z][INFO] Loaded Applications: 
+[2023-02-25T07:37:07.350Z][INFO] http://localhost:8000
+[2023-02-25T07:38:48.569Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T07:38:48.585Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T07:38:48.600Z][INFO] Loaded Applications: 
+[2023-02-25T07:38:48.602Z][INFO] http://localhost:8000
+[2023-02-25T07:38:50.898Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:50.899Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:51.136Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:52.173Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:52.175Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:52.431Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:57.470Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:57.472Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:38:57.737Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:12.421Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T07:46:12.446Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T07:46:12.462Z][INFO] Loaded Applications: 
+[2023-02-25T07:46:12.464Z][INFO] http://localhost:8000
+[2023-02-25T07:46:15.390Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:15.390Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:15.620Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:16.676Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:16.676Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:16.926Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:21.950Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:21.950Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T07:46:22.215Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:20.766Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T12:28:20.796Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T12:28:20.815Z][INFO] Loaded Applications: 
+[2023-02-25T12:28:20.818Z][INFO] http://localhost:8000
+[2023-02-25T12:28:23.055Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:23.056Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:23.295Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:23.297Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:23.304Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:23.306Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:23.310Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:23.314Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:23.315Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:24.361Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:24.363Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:24.607Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:24.608Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:24.613Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:24.614Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:24.616Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:24.620Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:24.621Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:29.649Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:29.650Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:29.906Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:29.907Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:29.912Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:29.912Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:28:29.915Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T12:28:29.917Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T12:28:29.918Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T12:33:15.653Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T12:33:15.668Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T12:33:15.682Z][INFO] Loaded Applications: 
+[2023-02-25T12:33:15.684Z][INFO] http://localhost:8000
+[2023-02-25T12:38:54.666Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T12:38:54.688Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T12:38:54.708Z][INFO] Loaded Applications: 
+[2023-02-25T12:38:54.710Z][INFO] http://localhost:8000
+[2023-02-25T13:00:51.072Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T13:00:51.091Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T13:00:51.110Z][INFO] Loaded Applications: 
+[2023-02-25T13:00:51.113Z][INFO] http://localhost:8000
+[2023-02-25T13:00:52.896Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:52.897Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:53.131Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:53.133Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:53.142Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:53.143Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:53.146Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:53.150Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:53.152Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:54.194Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:54.195Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:54.448Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:54.449Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:54.454Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:54.455Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:54.459Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:54.461Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:54.462Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:58.125Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:58.126Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:58.386Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:58.388Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:58.399Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:58.401Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:00:58.404Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T13:00:58.411Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T13:00:58.412Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T13:12:01.262Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T13:12:01.282Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T13:12:01.297Z][INFO] Loaded Applications: 
+[2023-02-25T13:12:01.299Z][INFO] http://localhost:8000
+[2023-02-25T15:03:21.981Z][INFO] Initializing Solet Dispatcher
+[2023-02-25T15:03:22Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-25T15:03:22.014Z][INFO] Loaded Applications: 
+[2023-02-25T15:03:22.017Z][INFO] http://localhost:8000
+[2023-02-25T15:03:23.718Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T15:03:23.719Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T15:03:23.951Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T15:03:23.953Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T15:03:23.955Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-25T15:03:23.960Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T15:03:23.961Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T15:03:23.962Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-25T15:03:23.964Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T15:03:23.966Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T15:03:23.967Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T15:03:23.968Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-25T15:03:25.001Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T15:03:25.002Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T15:03:25.259Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T15:03:25.260Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T15:03:25.261Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-25T15:03:25.265Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T15:03:25.266Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T15:03:25.267Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-25T15:03:25.269Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-25T15:03:25.271Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-25T15:03:25.273Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-25T15:03:25.274Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T08:14:42.865Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T08:14:42.887Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T08:14:42.901Z][INFO] Loaded Applications: 
+[2023-02-26T08:14:42.904Z][INFO] http://localhost:8000
+[2023-02-26T08:14:46.265Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T08:14:46.266Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T08:14:46.498Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T08:14:46.499Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T08:14:46.501Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T08:14:46.505Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T08:14:46.506Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T08:14:46.507Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T08:14:46.508Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T08:14:46.512Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T08:14:46.513Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T08:14:46.514Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T08:14:47.555Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T08:14:47.556Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T08:14:47.814Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T08:14:47.814Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T08:14:47.815Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T08:14:47.819Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T08:14:47.820Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T08:14:47.821Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T08:14:47.822Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T08:14:47.825Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T08:14:47.826Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T08:14:47.827Z][INFO] Start the request procesing in the ToyoteResourceHandler
+[2023-02-26T11:08:12.976Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T11:08:13.001Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T11:08:16.858Z][INFO] Loaded Applications: 
+[2023-02-26T11:08:40.961Z][INFO] http://localhost:8000
+[2023-02-26T11:08:46.163Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T11:08:46.183Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T11:08:46.196Z][INFO] Loaded Applications: 
+[2023-02-26T11:09:17.359Z][INFO] http://localhost:8000
+[2023-02-26T11:09:28.049Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T11:09:28.079Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T11:09:28.095Z][INFO] Loaded Applications: 
+[2023-02-26T11:09:47.599Z][INFO] http://localhost:8000
+[2023-02-26T11:11:20.430Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T11:11:20.459Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T11:11:20.474Z][INFO] Loaded Applications: 
+[2023-02-26T11:11:34.129Z][INFO] http://localhost:8000
+[2023-02-26T15:06:20.954Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:06:20.981Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:06:21.004Z][INFO] Loaded Applications: 
+[2023-02-26T15:06:21.007Z][INFO] http://localhost:8000
+[2023-02-26T15:06:22.425Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:06:22.427Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:06:22.654Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:06:22.656Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:40.600Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:08:40.622Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:08:40.638Z][INFO] Loaded Applications: 
+[2023-02-26T15:08:40.640Z][INFO] http://localhost:8000
+[2023-02-26T15:08:41.985Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:41.986Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:42.217Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:42.219Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:42.495Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:42.496Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:42.636Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:42.637Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:42.637Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:42.640Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:42.641Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:42.641Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:42.642Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:42.643Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:42.644Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:48.609Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:48.612Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:48.612Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:54.429Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:54.431Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:54.683Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:54.684Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:54.719Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:54.720Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:54.722Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:54.723Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:54.727Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:54.728Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:54.729Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:54.730Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:54.803Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:54.806Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:54.807Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:08:55.292Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:08:55.295Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:08:55.296Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:09:08.077Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:09:08.079Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:09:08.336Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:09:08.337Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:09:08.374Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:09:08.376Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:09:08.378Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:09:08.379Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:09:08.380Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:09:08.381Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:09:08.382Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:09:08.383Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:09:08.445Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:09:08.447Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:09:08.447Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:08.585Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:08.585Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:08.848Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:08.850Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:08.907Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:08.908Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:08.910Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:08.911Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:08.913Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:08.914Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:08.915Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:08.916Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:38.369Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:11:38.389Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:11:38.403Z][INFO] Loaded Applications: 
+[2023-02-26T15:11:38.405Z][INFO] http://localhost:8000
+[2023-02-26T15:11:39.422Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:39.423Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:39.657Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:39.660Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:39.949Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:39.951Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:48.027Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:48.028Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:48.281Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:48.282Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:53.587Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:11:53.606Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:11:53.617Z][INFO] Loaded Applications: 
+[2023-02-26T15:11:53.620Z][INFO] http://localhost:8000
+[2023-02-26T15:11:55.570Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:55.571Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:55.803Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:55.805Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:56.088Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:56.089Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:11:59.345Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:59.346Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:11:59.600Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:11:59.602Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:12:00.541Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:12:00.802Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:12:00.804Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:12:06.322Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:12:06.583Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:12:06.585Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:12:09.206Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:12:09.463Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:12:09.464Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:12:12.984Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:12:13.243Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:12:13.244Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:12:13.258Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:12:13.260Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:15:47.451Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:15:47.476Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:15:47.495Z][INFO] Loaded Applications: 
+[2023-02-26T15:15:47.497Z][INFO] http://localhost:8000
+[2023-02-26T15:15:48.713Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:15:48.714Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:15:48.944Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:15:48.946Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:15:49.237Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:15:49.239Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:16:06.243Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:16:06.264Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:16:06.280Z][INFO] Loaded Applications: 
+[2023-02-26T15:16:06.282Z][INFO] http://localhost:8000
+[2023-02-26T15:16:07.649Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:16:07.650Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:16:07.914Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:16:07.918Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:16:09.727Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:16:09.986Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:16:09.988Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:16:12.369Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:16:12.626Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:16:12.627Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:16:33.134Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:16:33.152Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:16:33.164Z][INFO] Loaded Applications: 
+[2023-02-26T15:16:33.166Z][INFO] http://localhost:8000
+[2023-02-26T15:16:39.246Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:16:39.247Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:16:39.463Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:16:39.465Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:25:17.137Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:25:17.162Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:25:17.177Z][INFO] Loaded Applications: 
+[2023-02-26T15:25:20.818Z][INFO] http://localhost:8000
+[2023-02-26T15:25:23.402Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:25:23.404Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:25:23.656Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:25:23.658Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:27:01.707Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:27:02.112Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:27:02.118Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:27:02.120Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:27:23.949Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:27:23.955Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:27:23.958Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:31:49.171Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:31:49.172Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:31:49.175Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:31:49.175Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:32:44.819Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:32:44.825Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:32:44.828Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:34:01.324Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:34:01.325Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:34:01.330Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:34:01.331Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:36:31.826Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:36:33.479Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:36:33.484Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:36:33.488Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:45:18.732Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:45:18.736Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:45:18.737Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:45:57.983Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:45:57.984Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:45:57.990Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:45:57.992Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:47:41.992Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:47:41.998Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:47:41.999Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:49:17.652Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:49:17.657Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:49:17.658Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:49:36.894Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:49:36.900Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:49:36.902Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:50:02.882Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:50:04.610Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:50:04.611Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:50:55.903Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:50:55.928Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:50:55.944Z][INFO] Loaded Applications: 
+[2023-02-26T15:50:55.953Z][INFO] http://localhost:8000
+[2023-02-26T15:51:03.212Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:51:03.213Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:51:03.226Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:51:03.232Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:51:32.901Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:51:32.921Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:51:59.507Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:52:01.682Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:52:02.564Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:52:02.574Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:52:02.577Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:52:02.584Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:52:02.589Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:52:02.592Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:52:10.352Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:52:31.590Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:52:31.595Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:52:31.597Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:53:36.504Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:53:36.512Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:53:36.513Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:53:55.436Z][INFO] Initializing Solet Dispatcher
+[2023-02-26T15:53:55.457Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-02-26T15:53:55.471Z][INFO] Loaded Applications: 
+[2023-02-26T15:53:55.480Z][INFO] http://localhost:8000
+[2023-02-26T15:53:59.691Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:53:59.693Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:53:59.694Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:53:59.699Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:53:59.702Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:54:02.147Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:54:02.148Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:54:03.011Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:54:03.011Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:54:03.012Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:54:03.013Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:54:03.252Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:54:03.467Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:54:03.468Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:54:03.469Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:54:16.082Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:54:16.088Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:54:16.090Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:55:56.216Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:55:56.227Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:55:56.230Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:55:59.584Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:56:01.007Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:56:01.007Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-02-26T15:56:01.012Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:56:01.013Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:56:01.014Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-02-26T15:56:01.015Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:56:01.017Z][INFO] ----------------------------------------------------------------------------------
+[2023-02-26T15:56:03.535Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:32.721Z][INFO] Initializing Solet Dispatcher
+[2023-03-08T05:59:32.744Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-03-08T05:59:32.759Z][INFO] Loaded Applications: 
+[2023-03-08T05:59:32.761Z][INFO] http://localhost:8000
+[2023-03-08T05:59:34.342Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:34.343Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:34.348Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:34.350Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:34.742Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:34.743Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:35.126Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:35.129Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:35.130Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:35.225Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:35.228Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:35.229Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:52.585Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:52.586Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:52.589Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:52.590Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:52.655Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:52.656Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:52.657Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:52.659Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:52.660Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-08T05:59:52.787Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-08T05:59:52.790Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-08T05:59:52.791Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-09T12:24:35.861Z][INFO] Initializing Solet Dispatcher
+[2023-03-09T12:24:35.875Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-03-09T12:24:35.885Z][INFO] Loaded Applications: 
+[2023-03-09T12:24:35.886Z][INFO] http://localhost:8000
+[2023-03-09T12:24:36.903Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-09T12:24:36.906Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-09T12:24:36.909Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-09T12:24:36.911Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-09T12:24:37.199Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-09T12:24:37.200Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-09T12:24:37.395Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-09T12:24:37.398Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-09T12:24:37.399Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-09T12:24:37.465Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-09T12:24:37.468Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-09T12:24:37.469Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-09T12:24:37.966Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-09T12:24:37.969Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-09T12:24:37.970Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-10T15:13:38.157Z][INFO] Initializing Solet Dispatcher
+[2023-03-10T15:13:38.178Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-03-10T15:13:38.194Z][INFO] Loaded Applications: 
+[2023-03-10T15:13:38.196Z][INFO] http://localhost:8000
+[2023-03-10T15:13:39.048Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-10T15:13:39.049Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-10T15:13:39.053Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-10T15:13:39.056Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-10T15:13:39.324Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-10T15:13:39.325Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-10T15:13:39.463Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-10T15:13:39.468Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-10T15:13:39.469Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-10T15:13:39.470Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-10T15:13:39.471Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-10T15:13:39.472Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-10T15:13:39.473Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-10T15:13:39.474Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-10T15:13:39.475Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-10T15:13:39.476Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-10T15:13:39.480Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-10T15:13:39.481Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:11.002Z][INFO] Initializing Solet Dispatcher
+[2023-03-11T03:50:11.026Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-03-11T03:50:11.043Z][INFO] Loaded Applications: 
+[2023-03-11T03:50:11.045Z][INFO] http://localhost:8000
+[2023-03-11T03:50:12.246Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:12.247Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:12.253Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:12.255Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:12.555Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:12.556Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:12.783Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:12.791Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:12.792Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:12.894Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:12.898Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:12.899Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:43.826Z][INFO] Initializing Solet Dispatcher
+[2023-03-11T03:50:43.846Z][INFO] -----------------Getting all class extends BaseHttpSolet and with @WebSolet annotation-----------------
+[2023-03-11T03:50:43.861Z][INFO] Loaded Applications: 
+[2023-03-11T03:50:43.863Z][INFO] http://localhost:8000
+[2023-03-11T03:50:44.933Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:44.934Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:44.940Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:44.942Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:45.230Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:45.231Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:45.448Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:45.451Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:45.452Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:45.516Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:45.518Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:45.519Z][INFO] ----------------------------------------------------------------------------------
+[2023-03-11T03:50:45.786Z][INFO] Start the request procesing in the ToyoteRequestHandler
+[2023-03-11T03:50:45.788Z][INFO] ----------------------------THE DETAILS INFORMATION REQUEST------------------------------------------------------
+[2023-03-11T03:50:45.789Z][INFO] ----------------------------------------------------------------------------------
